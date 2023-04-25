@@ -47,4 +47,9 @@ _Linux_
     _Key_: "Ctrl + y",
     _action_: "accept the suggestion by tabnine"
 
+## Custom Commands
+
+- :ServeHTML --> Serve HTML with live-server node package.
+  _Requirement_: `npm -g install live-server`
+
 More on [lazyvim.org](https://www.lazyvim.org/)
