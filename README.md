@@ -14,9 +14,26 @@ NpVim is a ready-to-use neovim config build on top of lazyvim.
 - 🤖 Ai Code Completition with Tabnine
 - 👨‍💻 Preconfigured with Typescript, TSX, React, Emmet, markdown preview, eslint, prettier, etc.
 
+## ⚡️ Requirements
+
+   - Neovim >= 0.8.0 (needs to be built with LuaJIT)
+   - Git >= 2.19.0 (for partial clones support)
+   - a Nerd Font (optional)
+   - lazygit (optional)
+   - for telescope.nvim (optional)
+       - live grep: ripgrep
+       - find files: fd
+   - a terminal that support true color and undercurl:
+       - kitty (Linux & Macos)
+       - wezterm (Linux, Macos & Windows)
+       - alacritty (Linux, Macos & Windows)
+       - iterm2 (Macos)
+
+
+
 ## 🛠️ Installation
 
-_Linux_
+_Linux/ MacOS_
 
 - Backup pervious configs.
 
@@ -34,6 +51,27 @@ _Linux_
   ```
   git clone https://github.com/gauravfs-14/NpVim ~/.config/nvim
   ```
+- Start neovim
+  ```
+  nvim
+  ```
+  
+_Windows_
+
+- Make a backup of your current Neovim files:
+  ```
+  # required
+  Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
+
+  # optional but recommended
+  Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak
+  ```
+  
+- Clone the repo
+  ```
+  git clone https://github.com/gauravfs-14/NpVim $env:LOCALAPPDATA\nvim
+  ```
+  
 - Start neovim
   ```
   nvim
