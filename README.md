@@ -4,6 +4,10 @@ NpVim is a ready-to-use neovim config build on top of lazyvim.
 
 ![home_screenshot](./images/homescreen.png)
 
+![code_example](./images/code_eg.png)
+
+![splits](./images/splits.png)
+
 ## ✨ Features
 
 - 🔥 Transform your Neovim into a full-fledged IDE
