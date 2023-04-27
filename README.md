@@ -372,9 +372,9 @@ Part of [lazyvim.plugins.extras.util.project](/plugins/extras/util.project)
 
 ## Tabnine
 
-| Key                   | Description               | Mode  |
-| --------------------- | ------------------------- | ----- |
-| <code>Ctrl + y</code> | Accept Tabnine Suggestion | **n** |
+| Key                      | Description               | Mode  |
+| ------------------------ | ------------------------- | ----- |
+| <code>&lt;C-y&gt;</code> | Accept Tabnine Suggestion | **i** |
 
 ## ToggleTerm
 
