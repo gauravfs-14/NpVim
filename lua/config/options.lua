@@ -6,7 +6,6 @@ vim.g.maplocalleader = "\\"
 
 -- LazyVim auto format
 vim.g.autoformat = true
-
 -- Snacks animations
 -- Set to `false` to globally disable all snacks animations
 vim.g.snacks_animate = true
@@ -21,7 +20,7 @@ vim.g.lazyvim_picker = "telescope"
 -- Can be one of: nvim-cmp, blink.cmp
 -- Leave it to "auto" to automatically use the completion engine
 -- enabled with `:LazyExtras`
-vim.g.lazyvim_cmp = "auto"
+vim.g.lazyvim_cmp = "blink.cmp"
 
 -- if the completion engine supports the AI source,
 -- use that instead of inline suggestions
@@ -127,8 +126,6 @@ end
 vim.g.markdown_recommended_style = 0
 
 -- Override
-
-local opt = vim.opt
 
 -- line wrapping
 opt.wrap = true

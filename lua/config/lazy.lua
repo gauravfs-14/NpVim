@@ -18,7 +18,6 @@ require("lazy").setup({
 
   spec = {
     -- add LazyVim and import its plugins
-    { "codota/tabnine-nvim", build = "./dl_binaries.sh" },
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     { import = "lazyvim.plugins.extras.formatting.prettier" },
     -- import any extras modules here
@@ -27,6 +26,17 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.lang.json" },
     { import = "lazyvim.plugins.extras.ui.alpha" },
     { import = "lazyvim.plugins.extras.ui.mini-animate" },
+    { import = "lazyvim.plugins.extras.coding.yanky" },
+    { import = "lazyvim.plugins.extras.lang.clangd" },
+    { import = "lazyvim.plugins.extras.lang.cmake" },
+    { import = "lazyvim.plugins.extras.lang.prisma" },
+    { import = "lazyvim.plugins.extras.lang.yaml" },
+    { import = "lazyvim.plugins.extras.lang.git" },
+    -- Uncomment/ Comment Your agent
+    -- { import = "lazyvim.plugins.extras.ai.copilot" },
+    { import = "lazyvim.plugins.extras.ai.tabnine" },
+    -- { import = "lazyvim.plugines.extras.ai.codeium", enabled = "false" },
+    -- { import = "lazyvim.plugines.extras.ai.supermaven", enabled = "false" },
     -- import/override with your plugins
     { import = "plugins" },
   },
