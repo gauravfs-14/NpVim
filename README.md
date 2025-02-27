@@ -1,6 +1,6 @@
 # NpVim
 
-NpVim is a ready-to-use neovim config build on top of lazyvim.
+Ready-to-go neovim config build on top of lazyvim. Pre-configured for JavaScript, TypeScript, React, Tailwind. Along with code completion with tabnine. 
 
 ![home_screenshot](./images/homescreen.png)
 
